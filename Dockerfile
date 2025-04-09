@@ -25,4 +25,4 @@ COPY public ./public
 RUN npm i
 # Install Chrome
 RUN npx remotion browser ensure
-CMD ["npx", "remotion", "studio", "--ipv4"]
+CMD ["npx", "remotion", "studio"]
